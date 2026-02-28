@@ -1,5 +1,5 @@
 ---
-name: sightlineai-content-repurposing-engine
+name: content-repurposing-engine
 description: >
   Takes a final, governance-approved SightLineAI™ blog and creates a single
   Repurposing Bundle markdown file: social posts, newsletter, 4× 90-second
@@ -8,7 +8,7 @@ description: >
   amplification plan.
 ---
 
-# SightLineAI™ Content Repurposing Engine (Repurposing Bundle Skill)
+# SightLineAI™ Content Repurposing Engine (Manus Skill)
 
 ## SECTION 1: PURPOSE
 
@@ -124,47 +124,30 @@ From these, extract and include at the top of your output:
 ```markdown
 ## Source Analysis
 
-**Title / Topic:** [from H1]
-**Core Argument (1 sentence):** [single main takeaway]
-**Key Points (3–5 bullets):**
-- [point 1]
-- [point 2]
-- [point 3]
-
-**Target Audience:** Independent optometry practice owners
-**Emotional Hook:** [dominant pain or aspiration]
-**Offer Alignment:** [e.g., Executive Board™, 30-day trial, recall workflow]
+Title / Topic: [from H1] Core Argument (1 sentence): [single main takeaway] Key Points (3–5 bullets):
+•	[point 1]
+•	[point 2]
+•	[point 3]
+Target Audience: Independent optometry practice owners Emotional Hook: [dominant pain or aspiration] Offer Alignment: [e.g., Executive Board™, 30-day trial, recall workflow]
+```
+________________________________________
 SECTION 5: SOCIAL CONTENT
 You must produce three distinct angles and apply them to LinkedIn and Facebook.
-
 Angles
-The Clinical Standard
-
-How the core argument improves discipline and operational clarity.
-
-The Liability Angle
-
-“Uncontrolled or unowned communication becomes liability.”
-
-The Advisory Perspective
-
-Senior pattern recognition and guidance from Dr. Harry.
-
+1.	The Clinical Standard
+•	How the core argument improves discipline and operational clarity.
+2.	The Liability Angle
+•	“Uncontrolled or unowned communication becomes liability.”
+3.	The Advisory Perspective
+•	Senior pattern recognition and guidance from Dr. Harry.
 5A: LinkedIn Posts (3)
 Requirements:
-
-No emojis by default.
-
-3–4 short paragraphs; bullets allowed for clarity.
-
-End each post with:
-
-A subtle peer question, or
-
-An approved SightLineAI CTA if it fits naturally.
-
+•	No emojis by default.
+•	3–4 short paragraphs; bullets allowed for clarity.
+•	End each post with:
+•	A subtle peer question, or
+•	An approved SightLineAI CTA if it fits naturally.
 Output:
-
 text
 ## LinkedIn Posts
 
@@ -180,16 +163,11 @@ text
 
 [post text]
 5B: Facebook Posts (3)
-Same three angles, tuned for Facebook:
-
-Slightly warmer, still professional.
-
-2–4 short paragraphs; bullets allowed.
-
-Link references in text may be mentioned, but no raw URLs.
-
+•	Same three angles, tuned for Facebook:
+•	Slightly warmer, still professional.
+•	2–4 short paragraphs; bullets allowed.
+•	Link references in text may be mentioned, but no raw URLs.
 Output:
-
 text
 ## Facebook Posts
 
@@ -205,14 +183,10 @@ text
 
 [post text]
 5C: X / Threads Thread (4–5 parts)
-1 hook post.
-
-3–4 follow-ups; each is a standalone, concise insight.
-
-Last post: soft CTA or reflective question.
-
+•	1 hook post.
+•	3–4 follow-ups; each is a standalone, concise insight.
+•	Last post: soft CTA or reflective question.
 Output:
-
 text
 ## X / Threads Thread (4–5 parts)
 
@@ -222,18 +196,12 @@ text
 4. [Supporting point]
 5. [Optional final CTA / question]
 5D: Instagram Carousel
-5–8 slides.
-
-Each slide:
-
-Short headline.
-
-1–3 supporting lines or bullets.
-
-Final slide = CTA slide.
-
+•	5–8 slides.
+•	Each slide:
+•	Short headline.
+•	1–3 supporting lines or bullets.
+•	Final slide = CTA slide.
 Output:
-
 text
 ## Instagram Carousel
 
@@ -247,19 +215,14 @@ text
 
 - **Final Slide – [CTA headline]**
   - [e.g., “Comment ‘structure’ if this hits home.”]
+________________________________________
 SECTION 6: EMAIL NEWSLETTER (Newsletter Content Architect™)
 Create a single email segment:
-
-Subject: ≤ 50 characters, no hype.
-
-Preview: ≤ 90 characters.
-
-Body: 200–350 words, high-value, peer-level.
-
-CTA: read the full article or consider a relevant SightLineAI offer, framed calmly.
-
+•	Subject: ≤ 50 characters, no hype.
+•	Preview: ≤ 90 characters.
+•	Body: 200–350 words, high-value, peer-level.
+•	CTA: read the full article or consider a relevant SightLineAI offer, framed calmly.
 Output:
-
 text
 ## Email Newsletter (Newsletter Content Architect™)
 
@@ -270,23 +233,16 @@ text
 **Body:**
 
 [body paragraphs]
+________________________________________
 SECTION 7: 90-SECOND VIDEO SCRIPTS (TAYA Pattern)
 Produce 4 distinct 90-second scripts (≈ 180–230 words each):
-
-Structure per script:
-
-Hook (0–5 seconds).
-
-Problem (5–25 seconds).
-
-Insight (25–75 seconds).
-
-Next Step (75–90 seconds).
-
-Spoken, conversational; align with blog’s angles.
-
+•	Structure per script:
+•	Hook (0–5 seconds).
+•	Problem (5–25 seconds).
+•	Insight (25–75 seconds).
+•	Next Step (75–90 seconds).
+•	Spoken, conversational; align with blog’s angles.
 Output:
-
 text
 ## 90-Second Video Scripts (TAYA Pattern)
 
@@ -306,37 +262,26 @@ text
 
 [script]
 These scripts replace any separate “Daily Video brandBUILDER” outputs for this article.
-
+________________________________________
 SECTION 8: AUDIO OVERVIEW PROMPT FOR NOTEBOOKLM
 Create one copy-ready prompt:
-
-Assume NotebookLM already holds the Brand Dossier + this blog.
-
-Ask for a 3–7 minute spoken overview for independent ODs.
-
-Emphasize the core argument and practical implications.
-
+•	Assume NotebookLM already holds the Brand Dossier + this blog.
+•	Ask for a 3–7 minute spoken overview for independent ODs.
+•	Emphasize the core argument and practical implications.
 Output:
-
 text
 ## Audio Overview Prompt for NotebookLM
 
 [one prompt block]
+________________________________________
 SECTION 9: COMPLETE SEO METADATA PACKAGE (BLOG)
 Summarize key SEO metadata for the blog:
-
-Primary Keyword.
-
-Secondary Keywords.
-
-Title Tag (primary SEO version).
-
-Meta Description (CTR‑optimized).
-
-URL Slug.
-
+•	Primary Keyword.
+•	Secondary Keywords.
+•	Title Tag (primary SEO version).
+•	Meta Description (CTR optimized).
+•	URL Slug.
 Output:
-
 text
 ## Complete SEO Metadata Package (Blog)
 
@@ -345,53 +290,31 @@ text
 - **Title Tag (Primary SEO Version):** [SEO title]
 - **Meta Description (CTR-Optimized):** [meta description]
 - **URL Slug:** [short-keyword-rich-slug]
+________________________________________
 SECTION 10: IMAGE PROMPT LIBRARY (NANO BANANA + CHATGPT 1.5)
 You do not create images, only prompts and SEO attributes.
-
 You must cover:
-
-Blog Images (at least 4):
-
-1 hero (16:9).
-
-3+ inline images.
-
-Social Images:
-
-1 per LinkedIn post (3).
-
-1 per Facebook post (3).
-
-1–2 for the X/Threads thread.
-
-1 per carousel slide.
-
-Newsletter Image:
-
-At least 1 concept.
-
+•	Blog Images (at least 4):
+•	1 hero (16:9).
+•	3+ inline images.
+•	Social Images:
+•	1 per LinkedIn post (3).
+•	1 per Facebook post (3).
+•	1–2 for the X/Threads thread.
+•	1 per carousel slide.
+•	Newsletter Image:
+•	At least 1 concept.
 For each image:
-
-A short usage label.
-
-Two prompts:
-
-Nano Banana Prompt.
-
-ChatGPT 1.5 Image Creator Prompt.
-
-SEO attributes:
-
-Alt Text (succinct, keyword-aware).
-
-File Name (lowercase, hyphenated, SEO-friendly, e.g. primary-keyword-short-label-hero-16x9.jpg).
-
-Image Title Tag (human-readable, keyword reinforcing).
-
-Caption (short sentence under image supporting context and SEO).
-
+•	A short usage label.
+•	Two prompts:
+•	Nano Banana Prompt.
+•	ChatGPT 1.5 Image Creator Prompt.
+•	SEO attributes:
+•	Alt Text (succinct, keyword-aware).
+•	File Name (lowercase, hyphenated, SEO-friendly, e.g. primary-keyword-short-label-hero-16x9.jpg).
+•	Image Title Tag (human-readable, keyword reinforcing).
+•	Caption (short sentence under image supporting context and SEO).
 Output structure:
-
 text
 ## Image Prompt Library
 
@@ -428,19 +351,14 @@ text
 #### Email Newsletter – [label]
 
 [pattern as above]
+________________________________________
 SECTION 11: AMPLIFICATION & DISTRIBUTION PLAN (7 DAYS)
 Create a simple 7-day plan using only assets from this bundle:
-
-Day / Date (relative is fine: Day 1–Day 7).
-
-Platform(s).
-
-Asset(s) to use.
-
-One brief angle/note.
-
+•	Day / Date (relative is fine: Day 1–Day 7).
+•	Platform(s).
+•	Asset(s) to use.
+•	One brief angle/note.
 Output:
-
 text
 ## Amplification & Distribution Plan (7 Days)
 
@@ -454,67 +372,42 @@ text
 | 6   | Video (all platforms) | 90-Second Video Script 1                    | Record and publish as short-form video.    |
 | 7   | Video + Social recap  | 90-Second Video Script 2, LinkedIn Post 3   | Advisory recap with light CTA.             |
 Adjust based on the blog’s angle and Offer alignment.
-
+________________________________________
 SECTION 12: OUTPUT ORDER & INTEGRATION
-Your final markdown output must appear in this exact order:
-
-text
-# [Blog Title] – Repurposing Bundle
-
-## Source Analysis
+Your final markdown output must appear in this exact order. DO NOT wrap your entire response in a ```markdown code block. Output raw markdown text.
+[Blog Title] – Repurposing Bundle
+Source Analysis
 ...
-
-## LinkedIn Posts
+LinkedIn Posts
 ...
-
-## Facebook Posts
+Facebook Posts
 ...
-
-## X / Threads Thread (4–5 parts)
+X / Threads Thread (4–5 parts)
 ...
-
-## Instagram Carousel
+Instagram Carousel
 ...
-
-## Email Newsletter (Newsletter Content Architect™)
+Email Newsletter (Newsletter Content Architect™)
 ...
-
-## 90-Second Video Scripts (TAYA Pattern)
+90-Second Video Scripts (TAYA Pattern)
 ...
-
-## Audio Overview Prompt for NotebookLM
+Audio Overview Prompt for NotebookLM
 ...
-
-## Complete SEO Metadata Package (Blog)
+Complete SEO Metadata Package (Blog)
 ...
-
-## Image Prompt Library
+Image Prompt Library
 ...
-
-## Amplification & Distribution Plan (7 Days)
+Amplification & Distribution Plan (7 Days)
 ...
-A Manus scheduled task will save this as:
-
-repurposed/MM-DD-YYYY Repurposing Bundle – [blog heading].md
-
-You don’t manage filenames or scheduling.
-
+A Manus scheduled task will save this as: repurposed/MM-DD-YYYY Repurposing Bundle – [blog heading].md You don’t manage filenames or scheduling.
+________________________________________
 SECTION 13: GOVERNANCE SELF-CHECK
 Before returning the bundle, verify:
-
- No forbidden terms (AI, GPT, automation, etc.).
-
- No hype language.
-
- No clinical advice or outcome promises.
-
- Tone is peer-level, not robotic or salesy.
-
- CTAs use approved language.
-
- Image prompts and captions reveal no internal tech or roadmap details.
-
+•	 No forbidden terms (AI, GPT, automation, etc.).
+•	 No hype language.
+•	 No clinical advice or outcome promises.
+•	 Tone is peer-level, not robotic or salesy.
+•	 CTAs use approved language.
+•	 Image prompts and captions reveal no internal tech or roadmap details.
 If any item fails, fix it before returning the Repurposing Bundle.
 
-text
-undefined
+
